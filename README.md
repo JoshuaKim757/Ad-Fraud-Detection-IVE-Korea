@@ -2,9 +2,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini%202.0%20Flash-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
 
-국내 리워드형 모바일 광고 플랫폼의 **클릭 이벤트 1,683만 건**과 **14개월간의 시간대별 성과 데이터**를 활용한 엔드투엔드 분석 프로젝트입니다.
-
+한국의 리워드형 모바일 광고 플랫폼에서 발생한 1,680만 건의 클릭 이벤트와 14개월치 시간 단위 성과 데이터를 분석한 end-to-end 프로젝트입니다. 
 가설 기반 이상 트래픽 탐지 파이프라인을 구축하고, 매체 단위 리스크 분류, 잠재 재무 노출 규모 산정, 그리고 플랫폼에서 발생한 최대 규모의 트래픽 이상 현상을 실제 운영 시점에서 사전에 탐지할 수 있었는지 검증하는 Out-of-Time 백테스트까지 수행했습니다.
+
+
+가설 기반 부정클릭 탐지 파이프라인, 매체 단위 리스크 집계, 재무적 노출 금액 정량화, 그리고 플랫폼 최대 트래픽 이상 현상을 사후 확인이 아니라 실시간으로 잡아낼 수 있었을지에 대한 out-of-time 백테스트를 포함합니다.
 
 **본 저장소는 데이터 통합부터 이상 트래픽 탐지 및 검증까지 저자가 직접 수행한 개인 기여 영역을 중심으로 구성되어 있습니다.** 팀원이 구축한 매체 운영 및 도메인 광고 최적화 영역은 전체 파이프라인의 연속성을 위해 포함하되, 본인의 직접 기여 영역이 아니므로 간략하게 기술했습니다.
 
