@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini%202.0%20Flash-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
 
-국내 리워드형 모바일 광고 플랫폼의 **클릭 이벤트 1,683만 건**과 **14개월간의 시간대별 성과 데이터**를 활용한 엔드투엔드 분석 프로젝트입니다.
+국내 리워드형 모바일 광고 플랫폼의 **클릭 이벤트 1,683만 건**과 **14개월간의 시간대별 성과 데이터**를 활용한 end-to-end 분석 프로젝트입니다.
 
 가설 기반 이상 트래픽 탐지 파이프라인을 구축하고, 매체 단위 리스크 분류, 잠재 재무 노출 규모 산정, 그리고 플랫폼에서 발생한 최대 규모의 트래픽 이상 현상을 실제 운영 시점에서 사전에 탐지할 수 있었는지 검증하는 Out-of-Time 백테스트까지 수행했습니다.
 
@@ -55,9 +55,7 @@
 
 ## 데이터
 
-원본 데이터는 상업용 데이터이므로 저장소에는 포함하지 않습니다.
-
-`./data/` 경로에 아래 파일이 존재한다고 가정합니다.
+원본 데이터는 상업용  실무 데이터이므로 저장소에는 포함하지 않습니다.
 
 | 파일 | 데이터 | 단위 |
 |---|---|---|
@@ -96,8 +94,6 @@
 - 1,600만 건 이상의 대용량 데이터 병합 과정에서 발생할 수 있는 의도하지 않은 행 증가(row explosion) 방지
 - 광고 종료일이 정의되지 않은 경우 사용된 `9999-12-31` 값(전체 광고의 96.7%)을 날짜 파싱 전에 문자열 수준에서 실제 처리 가능한 날짜로 변환
 - 전환 여부는 `ctit` 값의 존재 여부가 아니라 리워드 테이블 존재 여부를 기준으로 정의
-
-마지막 항목은 본 데이터셋에서는 두 정의 간 실제 차이가 발생하지 않았지만, 데이터 구조상 더 안정적인 전환 정의 방식을 사용하기 위해 적용했습니다.
 
 ---
 
@@ -279,16 +275,6 @@ CTIT 기준과 극단값 percentile 등 본 분석에서 사용된 모든 임계
 
 ---
 
-## 설치 및 실행
-
-```bash
-pip install -r requirements.txt
-jupyter notebook ive_korea_fraud_detection_portfolio.ipynb
-```
-
-처음부터 순서대로 실행하면 됩니다 (Kernel → Restart & Run All). Part 1만으로도 약 1,680만 건의 클릭 데이터와 14개월치 시간대별 리포트를 처리하므로, 16GB 이상의 메모리를 권장합니다.
-
----
 
 ## 알려진 한계
 
