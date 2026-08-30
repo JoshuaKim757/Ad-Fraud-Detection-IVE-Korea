@@ -354,9 +354,7 @@ Normal
 
 ### 시각화
 
-```markdown
-![리스크별 CVR](assets/02_risk_cvr.png)
-```
+<img width="1001" height="401" alt="Screenshot 2026-08-30 at 2 18 14 PM" src="https://github.com/user-attachments/assets/ec21991f-0611-495d-9893-f5794dced492" />
 
 ---
 
@@ -401,9 +399,7 @@ Normal
 
 ### 시각화
 
-```markdown
-![Financial Exposure](assets/03_financial_exposure.png)
-```
+<img width="997" height="406" alt="Screenshot 2026-08-30 at 2 19 59 PM" src="https://github.com/user-attachments/assets/6f10d274-4a84-49f2-a6ec-be15e25650b5" />
 
 ---
 
