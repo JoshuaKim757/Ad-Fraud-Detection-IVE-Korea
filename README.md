@@ -462,9 +462,7 @@ unscored
 
 ### 시각화
 
-```markdown
-![매체 539 시계열](assets/04_media539_timeseries.png)
-```
+<img width="998" height="462" alt="Screenshot 2026-08-30 at 2 21 13 PM" src="https://github.com/user-attachments/assets/1dd8984a-1acc-4276-b910-9a5faad1dfbd" />
 
 이 사례를 기반으로 다음 질문을 추가했습니다.
 
@@ -568,9 +566,7 @@ H5에서는 정상 트래픽과 이상 트래픽의 시간대 및 요일 패턴�
 
 ### 선택 시각화
 
-```markdown
-![시간대 및 요일 패턴](assets/05_temporal_pattern.png)
-```
+<img width="1003" height="403" alt="Screenshot 2026-08-30 at 2 21 51 PM" src="https://github.com/user-attachments/assets/e779fb35-8312-409d-920f-e87f364626b9" />
 
 ---
 
